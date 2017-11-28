@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2017 Nemanja Kukic <thedarkbyte96@gmail.com> -->
+<component type="desktop">
+  <id>com.github.Twister1996.hello-again-vala.desktop</id>
+  <metadata_license>CC0</metadata_license>
+  <name>Hello Again</name>
+  <summary>Proving Gtk+3 works with Vala.</summary>
+  <description>
+    <p>This app does not really have a description.</p>
+  </description>
+   <custom>
+     <value key="x-appcenter-color-primary">#603461</value>
+     <value key="x-appcenter-color-primary-text">rgb(255, 255, 255)</value>
+     <value key="x-appcenter-suggested-price">5</value>
+  </custom>
+</component>
