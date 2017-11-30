@@ -45,3 +45,7 @@ install (TARGETS ${EXEC_NAME} RUNTIME DESTINATION bin)
 install (FILES ${CMAKE_CURRENT_SOURCE_DIR}/data/com.github.Twister1996.hello-again-vala.desktop DESTINATION ${DATADIR}/applications/)
 
 install (FILES ${CMAKE_CURRENT_SOURCE_DIR}/data/com.github.Twister1996.hello-again-vala.appdata.xml DESTINATION ${DATADIR}/metainfo/)
+
+set (GETTEXT_PACKAGE "${CMAKE_PROJECT_NAME}")
+add_definitions (-DGETTEXT_PACKAGE=\"${GETTEXT_PACKAGE}\")
+add_subdirectory (po)
